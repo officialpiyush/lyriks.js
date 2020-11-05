@@ -1,28 +1,29 @@
 {
-    "compileOnSave": true,
-    "compilerOptions": {
-      "allowJs": true,
-      "alwaysStrict": true,
-      "experimentalDecorators": true,
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "noImplicitAny": true,
-      "outDir": "dist",
-      "pretty": true,
-      "sourceMap": false,
-      "strict": true,
-      "target": "esnext",
-      "plugins": [],
-      "types": [
-        "node",
-        "cheerio",
-      ]
-    },
-    "exclude": [
-      "node_modules"
-    ],
-    "include": [
-      "src",
-      "typings"
+  "compileOnSave": true,
+  "compilerOptions": {
+    "allowJs": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "dist",
+    "pretty": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "esnext",
+    "plugins": [],
+    "types": [
+      "node",
+      "cheerio",
+      "node-cache"
     ]
-  }
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src",
+    "typings"
+  ]
+}
