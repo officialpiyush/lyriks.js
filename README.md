@@ -46,7 +46,10 @@ yarn add lyriks.js
 const { LyriksClient } = require("lyriks.js")
 
 const lyriksClient = new LyriksClient()
+
+// Promise based
 lyriksClient.getLyrics("dynamite").then(lyrik => {
+    if(!lyrik) throw "No data found"
     // You can access the data using the following functions
     const author = lyrik.getAuthor()
     const title = lyrik.getAuthor()
