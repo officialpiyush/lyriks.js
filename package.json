@@ -1,0 +1,34 @@
+{
+  "name": "lyriks.js",
+  "version": "0.1.0",
+  "description": "Lyrics scraping API for nodejs",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "eslint \"src/**\""
+  },
+  "keywords": [
+    "lyrics",
+    "music",
+    "lyriks",
+    "lyriks.js",
+    "lyrics.js",
+    "song"
+  ],
+  "files": [
+    "build/**/*"
+  ],
+  "author": "Piyush Bhangale <bhangalepiyush@gmal.com>",
+  "license": "GNU GPLv3",
+  "devDependencies": {
+    "@types/cheerio": "^0.22.22",
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.1",
+    "@typescript-eslint/parser": "^4.6.1",
+    "eslint": "^7.12.1",
+    "standard": "^16.0.1",
+    "typescript": "^4.0.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
