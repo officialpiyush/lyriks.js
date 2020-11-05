@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.3",
+    "node-cache": "^5.1.2",
     "node-fetch": "^2.6.1"
   }
 }
